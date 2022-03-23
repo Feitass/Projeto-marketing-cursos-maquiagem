@@ -1,0 +1,326 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/*INÍCIO HEADER*/
+
+.container-cabeçalho{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(222, 75, 168, 0.84) 0%, rgba(228, 0, 143, 0.84)100%), url("../imagens/banner2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 620px;
+    background-position:center bottom;
+ 
+}
+
+.banner h2{
+    font-size:40px;
+    padding-top:150px;
+    font-weight: 800;
+    line-height: 1.2em;
+    padding-bottom: 30px;
+}
+
+.banner h2:hover{
+transition:1s;
+color: rgba(255, 255, 255, 0.068);
+}  
+
+.banner h2,.banner p{
+    font-family: "Montserrat", Sans-serif;
+    text-align: center;
+    color:white;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    max-width: 900px;
+    width: 800px;
+    height: 400px;
+    border-radius: 1.5%;
+    margin-top: 10px
+}
+
+.banner span{
+    text-transform: uppercase;
+}
+
+.conf{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 70px;
+    text-align: center;
+    background-color: #00D729;
+    padding:15px;
+    border-radius: 30px;
+    box-shadow: 0px -7px 0px -3px rgb(0 0 0 / 50%) inset;
+    cursor: pointer;
+    transition-duration:500ms;
+    
+}
+
+.conf:hover{
+    transform:scale(110%);
+    -webkit-transform:scale(110%);
+}
+
+.conf p{
+    color: white;
+    font-size:20pt;
+    font-family: "Montserrat", Sans-serif;    
+}
+
+.conf a{
+    text-decoration: none;
+}
+
+
+.teste{
+    height: 1000px;
+}
+
+/*FIM HEADER*/
+
+/*INÍCIO SESSÃO GALERIA*/
+
+.container-imagens{
+    display: block;
+    margin-top:340px;
+    padding: 0 250px;
+    
+}
+
+.container-imagens h2{
+    color: #690742;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.container-imagens span{
+    color: #E348A1;
+}
+
+.container-slide{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    margin: 5vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px black;
+}
+
+.container-items{
+    position:absolute;
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item{
+    width: 50vw;
+    height: 50vh;
+    transition: all 1s;
+}
+
+.item:first-child{
+    margin-left: -100%;
+}
+
+.item img{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.action-button{
+font: bold 30px sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50px;
+color: #00000000;
+user-select: none;
+z-index: 1;
+}
+
+.action-button:hover{
+color:white;
+background-color: #00000055;
+border-radius: 10px;
+cursor: pointer;
+transition: all 1s;
+}
+/*FIM SESSÃO GALERIA*/
+
+/*INÍCIO SESSÃO CURSOS*/
+
+.cursos{
+background-color: rgba(190, 154, 179, 0.267);
+padding-top:30px
+}
+.cursos h1{
+    margin-top:100px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight:800;
+    color: #690742;
+}
+
+.cursos span{
+    color: #E348A1;
+}
+
+article h2{
+    color:#690742;
+    margin-top: 40px
+}
+
+article{
+    margin: top 20px;
+    border-bottom: solid 2px #E348A1;
+}
+
+article h3{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'montserrat',sans-serif;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+article strong{
+    text-decoration: line-through;
+}
+article h2,article p{
+    padding: 10px 0 5px 20px;
+    font-family:'montserrat',sans-serif;
+}
+
+article span{
+    font-family:'montserrat',sans-serif   
+}
+
+table{
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 20px;
+    
+}
+
+table tr{
+    font-family: 'montserrat',sans-serif;
+    color:rgba(0, 0, 0, 0.562)
+}
+
+table tr td{
+    padding: 5px 50px;
+}
+
+table tr td i{
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+    color:#E348A1
+}
+/*FIM SESSÃO CURSOS*/
+
+/*INÍCIO SESSÃO BÔNUS*/
+.bonus-flex{
+    display: flex;
+    margin: 0 20px
+}
+
+.bonus h3,.bonus h1{
+    text-align: center;
+    font-family: 'montserat',sans-serif;
+}
+
+.bonus h1{
+    padding:40px 0 20px 0;
+    color:#690742;
+}
+
+.bonus h3{
+    color:#E348A1
+}
+
+.bonus-container{
+    width: 400px;
+    margin: 0 20px;
+    padding-top: 50px;
+    background-color: #d000d738;
+    border-radius: 10px;
+}
+
+.bonus-container h2,.bonus-container p{
+    font-family: 'montserat',sans-serif;
+    
+}
+
+.bonus-container h2{
+    color:#690742;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bonus-container span{
+    color: #E348A1;
+    text-align: center;
+}
+
+.bonus-container p{
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.bonus-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 250ms;
+}
+
+.bonus-container img:hover{
+    transform:scale(120%);
+    -webkit-transform:scale(120%);
+}
+
+
+
+
+
+
+
+/*FIM SESSÃO BÔNUS*/
