@@ -53,12 +53,13 @@ color: rgba(255, 255, 255, 0.068);
 .video{
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
-    max-width: 900px;
     width: 800px;
     height: 400px;
-    border-radius: 1.5%;
     margin-top: 10px
+}
+
+.video video{
+    border-radius: 1.5%;
 }
 
 .banner span{
@@ -127,8 +128,8 @@ color: rgba(255, 255, 255, 0.068);
 .container-slide{
     display: flex;
     justify-content: space-between;
-    width: 50vw;
-    height: 50vh;
+    width: 40vw;
+    height: 80vh;
     background-color: black;
     margin: 5vh auto;
     border-radius: 10px;
@@ -138,15 +139,15 @@ color: rgba(255, 255, 255, 0.068);
 .container-items{
     position:absolute;
     display: flex;
-    width: 50vw;
-    height: 50vh;
+    width: 40vw;
+    height:80vh;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .item{
-    width: 50vw;
-    height: 50vh;
+    width:40vw;
+    height: 80vh;
     transition: all 1s;
 }
 
@@ -155,8 +156,8 @@ color: rgba(255, 255, 255, 0.068);
 }
 
 .item img{
-    width: 50vw;
-    height: 50vh;
+    width: 40vw;
+    height: 80vh;
     border-radius: 10px;
 }
 
@@ -166,18 +167,16 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 50px;
-color: #00000000;
 user-select: none;
 z-index: 1;
-}
-
-.action-button:hover{
 color:white;
 background-color: #00000055;
 border-radius: 10px;
 cursor: pointer;
-transition: all 1s;
+
 }
+
+
 /*FIM SESSÃO GALERIA*/
 
 /*INÍCIO SESSÃO CURSOS*/
@@ -280,7 +279,7 @@ table tr td i{
 /*INÍCIO SESSÃO BÔNUS*/
 .bonus-flex{
     display: flex;
-    margin: 0 20px
+    margin: 0 20px;
 }
 
 .bonus h3,.bonus h1{
@@ -341,10 +340,9 @@ table tr td i{
     -webkit-transform:scale(120%);
 }
 
-.bonus:first-child(5){
-  width:100%
-}
+.bonus-container:nth-child(5){
 
+}
 
 
 

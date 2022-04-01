@@ -39,3 +39,5 @@ document.querySelector('#next').addEventListener('click', next);
 
 /*SISTEMA DE BORDA ANIMADA*/
 
+
+
