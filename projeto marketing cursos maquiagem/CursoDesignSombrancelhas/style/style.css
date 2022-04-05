@@ -278,8 +278,8 @@ table tr td i{
 
 /*INÍCIO SESSÃO BÔNUS*/
 .bonus-flex{
-    display: flex;
-    margin: 0 20px;
+    margin: 20px 20px;
+    display:flex
 }
 
 .bonus h3,.bonus h1{
@@ -302,6 +302,7 @@ table tr td i{
     padding-top: 50px;
     background-color: #d000d738;
     border-radius: 10px;
+    
 }
 
 .bonus-container h2,.bonus-container p{
@@ -333,6 +334,7 @@ table tr td i{
     margin-left: auto;
     margin-right: auto;
     transition-duration: 250ms;
+
 }
 
 .bonus-container img:hover{
@@ -340,10 +342,30 @@ table tr td i{
     -webkit-transform:scale(120%);
 }
 
-.bonus-container:nth-child(5){
-
+.bonus-container-2{
+    display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
+.contact-zap{
+    margin: 8vh 0;
+    background-color: #00d727;
+    height: 150px;
+}
+
+.contact-zap h3,.contact-zap a{
+    padding-top: 5vh ;
+}
+
+.contact-zap h3{
+    color:white;
+    font-size: 25pt;
+}
+
+.contact-zap a:hover{
+    color:blue
+}
 
 
 
