@@ -162,19 +162,123 @@ color: rgba(255, 255, 255, 0.068);
 }
 
 .action-button{
-font: bold 30px sans-serif;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 50px;
-user-select: none;
-z-index: 1;
-color:white;
-background-color: #00000055;
-border-radius: 10px;
-cursor: pointer;
+    font: bold 30px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    user-select: none;
+    z-index: 1;
+    color:white;
+    background-color: #00000055;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    }
 
+.container-slide-2{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    height: 80vh;
+    background-color: black;
+    margin: 5vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px black;
 }
+
+.container-items-2{
+    position:absolute;
+    display: flex;
+    width: 40vw;
+    height:80vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.item-2{
+    width:40vw;
+    height: 80vh;
+    transition: all 1s;
+}
+
+.item-2:first-child{
+    margin-left: -100%;
+}
+
+.item-2 img{
+    width: 40vw;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.action-button-2{
+    font: bold 30px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    user-select: none;
+    z-index: 1;
+    color:white;
+    background-color: #00000055;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    }
+
+    .container-slide-3{
+        display: flex;
+        justify-content: space-between;
+        width: 40vw;
+        height: 80vh;
+        background-color: black;
+        margin: 5vh auto;
+        border-radius: 10px;
+        box-shadow: 0 20px 30px black;
+    }
+    
+    .container-items-3{
+        position:absolute;
+        display: flex;
+        width: 40vw;
+        height:80vh;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    
+    .item-3{
+        width:40vw;
+        height: 80vh;
+        transition: all 1s;
+    }
+    
+    .item-3:first-child{
+        margin-left: -100%;
+    }
+    
+    .item-3 img{
+        width: 40vw;
+        height: 80vh;
+        border-radius: 10px;
+    }
+    
+    .action-button-3{
+        font: bold 30px sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        user-select: none;
+        z-index: 1;
+        color:white;
+        background-color: #00000055;
+        border-radius: 10px;
+        cursor: pointer;
+        
+        }
 
 
 /*FIM SESSÃO GALERIA*/
@@ -363,12 +467,30 @@ table tr td i{
     font-size: 25pt;
 }
 
+.contact-zap a{
+    color: white
+}
+
 .contact-zap a:hover{
     color:blue
 }
 
-
-
-
-
 /*FIM SESSÃO BÔNUS*/
+
+/*INÍCIO SESSÃO FOOTER*/
+footer{
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color: #690742;
+}
+
+footer p{
+    color: white;
+    font-family: 'montserrat',sans-serif;
+    text-align: center;
+    font-size: 8pt;
+    padding: 10px 60px
+}
+/*FIM SESSÃO FOOTER*/
