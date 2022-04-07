@@ -23,10 +23,10 @@
 
 .banner h2{
     font-size:40px;
-    padding-top:150px;
     font-weight: 800;
     line-height: 1.2em;
-    padding-bottom: 30px;
+    padding:150px 15px 30px 15px;
+    
 }
 
 .banner h2:hover{
@@ -41,6 +41,7 @@ color: rgba(255, 255, 255, 0.068);
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .banner p{
@@ -48,6 +49,7 @@ color: rgba(255, 255, 255, 0.068);
     font-weight: 500;
     line-height: 1.3em;
     font-weight: bold;
+    padding: 0 15px
 }
 
 .video{
@@ -55,11 +57,13 @@ color: rgba(255, 255, 255, 0.068);
     margin-right: auto;
     width: 800px;
     height: 400px;
-    margin-top: 10px
+    margin-top: 40px
+
 }
 
 .video video{
     border-radius: 1.5%;
+    
 }
 
 .banner span{
@@ -494,3 +498,166 @@ footer p{
     padding: 10px 60px
 }
 /*FIM SESSÃO FOOTER*/
+
+
+/*INÍCIO RESPONSIVO*/
+/*ÍNÍCIO RESPONSIVO BANNER*/
+@media screen and (max-width:817px){
+    .video{
+        display: none;
+    }
+    .video video{
+        display: none
+    }
+
+    .conf{
+        display: none
+    }
+
+    .container-imagens{
+        display: block;
+        margin:50px 0 30px 0;  
+        padding: 0 50px;}
+
+        .container-slide{
+            display: flex;
+            justify-content: space-between;
+            width: 80vw;
+            height: 80vh;
+            background-color: black;
+            margin: 5vh auto;
+            border-radius: 10px;
+            box-shadow: 0 20px 30px black;
+        }
+        
+        .container-items{
+            position:absolute;
+            display: flex;
+            width: 80vw;
+            height:80vh;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .item{
+            width:80vw;
+            height: 80vh;
+            transition: all 1s;
+        }
+        
+        .item img{
+            width: 80vw;
+            height: 80vh;
+            border-radius: 10px;
+        }
+
+        .container-slide-2{
+            display: flex;
+            justify-content: space-between;
+            width: 80vw;
+            height: 80vh;
+            background-color: black;
+            margin: 5vh auto;
+            border-radius: 10px;
+            box-shadow: 0 20px 30px black;
+        }
+        
+        .container-items-2{
+            position:absolute;
+            display: flex;
+            width: 80vw;
+            height:80vh;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        
+        .item-2{
+            width:80vw;
+            height: 80vh;
+            transition: all 1s;
+        }
+        
+        .item-2 img{
+            width: 80vw;
+            height: 80vh;
+            border-radius: 10px;
+        }
+
+        .container-slide-3{
+            display: flex;
+            justify-content: space-between;
+            width: 80vw;
+            height: 80vh;
+            background-color: black;
+            margin: 5vh auto;
+            border-radius: 10px;
+            box-shadow: 0 20px 30px black;
+        }
+        
+        .container-items-3{
+            position:absolute;
+            display: flex;
+            width: 80vw;
+            height:80vh;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        
+        .item-3{
+            width:80vw;
+            height: 80vh;
+            transition: all 1s;
+        }
+        
+        
+        .item-3 img{
+            width: 80vw;
+            height: 80vh;
+            border-radius: 10px;
+        }
+}
+/*FIM RESPOSIVO BANNER*/
+
+/*INÍCIO RESPONSIVO TABELAS*/
+@media screen and (max-width:634px){
+    table tr td{
+        padding: 5px 15px;
+    }
+
+}
+/*FIM RESPONSIVO TABELAS*/
+
+/*INÍCIO RESPONSIVO BONUS*/
+@media screen and (max-width:748px){
+    .bonus-flex{
+        padding: 20px 20px;
+        display:block;
+        
+}
+
+.bonus-container{
+    width: 100%;
+    margin: 0px 20px;
+    padding-top: 50px;
+    background-color: #d000d738;
+    border-radius: 10px;}
+
+    .bonus-container-2{
+        display: block;
+        margin: -90px 20px 0 20px;
+        padding: 50px 20px;
+        width: 88.5vw;
+    }
+/*FIM RESPONSIVO BONUS*/
+
+/*INÍCIO RESPONSIVO FOOTER*/
+@media screen and (max-width:614px){
+    footer p{
+       
+        padding: 10px 0 10px 0
+    }
+}
+/*FIM RESPONSIVO FOOTER*/
+/*FIM RESPONSIVO*/
