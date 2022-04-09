@@ -13,7 +13,7 @@
 }
 
 .banner{
-    background-image: linear-gradient(rgba(222, 75, 168, 0.84) 0%, rgba(228, 0, 143, 0.84)100%), url("../imagens/banner2.jpg");
+    background-image: linear-gradient(rgba(222, 75, 168, 0.84) 0%, rgba(228, 0, 143, 0.84) 100%), url("../imagens/banner2.jpg");
     background-size: cover;
     background-repeat: no-repeat; 
     height: 620px;
@@ -63,7 +63,8 @@ color: rgba(255, 255, 255, 0.068);
 
 .video video{
     border-radius: 1.5%;
-    
+    width: auto;
+    padding-left: 3vw;
 }
 
 .banner span{
@@ -410,7 +411,7 @@ table tr td i{
     padding-top: 50px;
     background-color: #d000d738;
     border-radius: 10px;
-    
+    height: auto;
 }
 
 .bonus-container h2,.bonus-container p{
@@ -454,12 +455,15 @@ table tr td i{
     display: flex;
    justify-content: center;
    align-items: center;
+   
 }
 
 .contact-zap{
     margin: 8vh 0;
     background-color: #00d727;
-    height: 150px;
+    height: 255px;
+;
+    
 }
 
 .contact-zap h3,.contact-zap a{
@@ -469,10 +473,13 @@ table tr td i{
 .contact-zap h3{
     color:white;
     font-size: 25pt;
+    width: auto;
 }
 
 .contact-zap a{
-    color: white
+    color: white;
+    text-decoration: none;
+    
 }
 
 .contact-zap a:hover{
@@ -630,7 +637,7 @@ footer p{
 /*FIM RESPONSIVO TABELAS*/
 
 /*INÍCIO RESPONSIVO BONUS*/
-@media screen and (max-width:748px){
+@media screen and (max-width:887px){
     .bonus-flex{
         padding: 20px 20px;
         display:block;
@@ -648,7 +655,7 @@ footer p{
         display: block;
         margin: -90px 20px 0 20px;
         padding: 50px 20px;
-        width: 88.5vw;
+        width: auto;
     }
 /*FIM RESPONSIVO BONUS*/
 
